@@ -2,19 +2,14 @@
 
 //display a message to the user
 
-function displayMessage(){
+function getValues(){
     //declare variable
     let msg = "";
     //pull the value from the input box
     msg = document.getElementById("message").value;
     
-    alert(msg);
+    Swal.fire(msg);
    
 }
 
-function displayMessage2(){
-    let msg = "";
-    msg = document.getElementById("message").value;
-    Swal.fire(msg);
 
-}
